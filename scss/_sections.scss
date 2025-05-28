@@ -1,9 +1,0 @@
-.target-section {
-   display: none;
-   height: 100vh;
-   background-image: url('../assets/images/bg-mobile-rotate.png');
-   background-size: cover;
-   &.active {
-      display: block;
-   }
-}
