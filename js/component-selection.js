@@ -41,7 +41,7 @@ function getBestComponents(selectedGames, selectedPerf, gamesData, componentsDat
       return rank < bestRank ? gpu : best;
    });
    const gameWithBestGPU = selectedGames.find((gameKey) =>
-      gamesData.games[gameKey][selectedPerf].cpu.includes(bestGPU),
+      gamesData.games[gameKey][selectedPerf].gpu.includes(bestGPU),
    );
    let altGPU = null;
    if (gameWithBestGPU)
