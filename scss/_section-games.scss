@@ -2,12 +2,11 @@
 
 .games {
    text-align: center;
-   padding: 0 10px;
+   padding: 20px 10px;
    &__form {
-      height: 100vh;
+      height: calc(100vh - 40px);
    }
    &__step {
-      margin-top: 30px;
       & span {
          text-transform: uppercase;
          font-weight: 700;
@@ -23,7 +22,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 6px;
-      margin-top: 20px;
+      margin: 20px 0 30px;
    }
    &__tile {
       width: 32%;
@@ -65,7 +64,7 @@
 
    &__result {
       display: none;
-      height: 100vh;
+      height: calc(100vh - 20px);
       &.active {
          display: block;
       }
