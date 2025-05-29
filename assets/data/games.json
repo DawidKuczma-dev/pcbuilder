@@ -1,0 +1,40 @@
+{
+   "games": {
+      "GoWR": {
+         "storage": 190,
+         "30fps": {
+            "cpu": ["Intel Core i5-4670K 3.4 GHz", "AMD Ryzen 3 1200 3.1 GHz"],
+            "gpu": ["GeForce GTX 1060 6GB", "Radeon RX 5500 XT 8GB"],
+            "ram": 8
+         },
+         "60fps": {
+            "cpu": ["Intel Core i5-8600 3.1 GHz", "AMD Ryzen 5 3600 3.6 GHz"],
+            "gpu": ["GeForce RTX 2060 Super 8GB", "Radeon RX 5700 8GB"],
+            "ram": 16
+         },
+         "4k": {
+            "cpu": [" Intel Core i5-11600K 3.9 GHz", "AMD Ryzen 7 3700X 3.6 GHz"],
+            "gpu": ["GeForce RTX 4070 Ti 12GB", "Radeon RX 7900 XT 20GB"],
+            "ram": 16
+         }
+      },
+      "cyberpunk": {
+         "storage": 70,
+         "30fps": {
+            "cpu": ["Intel Core i7-6700 3.4 GHz", "AMD Ryzen 5 1600 3.2 GHz"],
+            "gpu": ["GeForce GTX 1060 6GB", "Radeon RX 580 8GB"],
+            "ram": 12
+         },
+         "60fps": {
+            "cpu": ["Intel Core i7-12700 3.6 GHz", "AMD Ryzen 7 7800 4.2 GHz"],
+            "gpu": ["GeForce RTX 2060 Super 8GB", "Radeon RX 5700XT 8GB"],
+            "ram": 16
+         },
+         "4k": {
+            "cpu": ["ntel Core i9-12900 2.4 GHz", "AMD Ryzen 9 7900X 4.7 GHz"],
+            "gpu": ["GeForce RTX 4080 16GB"],
+            "ram": 24
+         }
+      }
+   }
+}

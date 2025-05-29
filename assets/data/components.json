@@ -1,0 +1,38 @@
+{
+   "cpu": {
+      "Intel Core i7-6700 3.4 GHz": {
+         "tdp": 65,
+         "socket": "1151",
+         "rank": 393
+      },
+      "AMD Ryzen 5 1600 3.2 GHz": {
+         "tdp": 65,
+         "socket": "AM4",
+         "rank": 432
+      },
+      "Intel Core i5-4670K 3.4 GHz": {
+         "tdp": 84,
+         "socket": "1150",
+         "rank": 481
+      },
+      "AMD Ryzen 3 1200 3.1 GHz": {
+         "tdp": 65,
+         "socket": "AM4",
+         "rank": 679
+      }
+   },
+   "gpu": {
+      "GeForce GTX 1060 6GB": {
+         "tdp": 120,
+         "rank": 127
+      },
+      "Radeon RX 580 8GB": {
+         "tdp": 185,
+         "rank": 133
+      },
+      "Radeon RX 5500 XT 8GB": {
+         "tdp": 130,
+         "rank": 135
+      }
+   }
+}
