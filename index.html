@@ -75,21 +75,21 @@
                <h3>Wybierz docelową wydajność</h3>
             </div>
             <div class="games__performance">
-               <input type="radio" name="performance" value="30fps / 720p-1080p" id="perf-720" hidden />
+               <input type="radio" name="performance" value="30fps" id="perf-720" hidden />
                <label for="perf-720" class="games__performance-option">
                   30fps
                   <br />
                   720p/1080p
                </label>
 
-               <input type="radio" name="performance" value="60fps / 1080p" id="perf-1080" checked hidden />
+               <input type="radio" name="performance" value="60fps" id="perf-1080" checked hidden />
                <label for="perf-1080" class="games__performance-option">
                   60fps
                   <br />
                   1080p
                </label>
 
-               <input type="radio" name="performance" value="60fps / 4k" id="perf-4k" hidden />
+               <input type="radio" name="performance" value="4k" id="perf-4k" hidden />
                <label for="perf-4k" class="games__performance-option">
                   60fps
                   <br />
@@ -98,6 +98,41 @@
             </div>
             <button type="submit" class="games__submit">Zatwierdź wybór</button>
          </form>
+         <div id="result">
+            <h2>Rekomendowana konfiguracja</h2>
+            <p>
+               <strong>Procesor:</strong>
+               <span id="cpu"></span>
+            </p>
+            <p>
+               <strong>Alternatywnie:</strong>
+               <span id="altCpu"></span>
+            </p>
+            <p>
+               <strong>Karta graficzna:</strong>
+               <span id="gpu"></span>
+            </p>
+            <p>
+               <strong>Alternatywnie:</strong>
+               <span id="altGpu"></span>
+            </p>
+            <p>
+               <strong>Pamięć RAM:</strong>
+               <span id="ram"></span>
+            </p>
+            <p>
+               <strong>Miejsce na dysku:</strong>
+               <span id="storage"></span>
+            </p>
+            <p>
+               <strong>Rekomendowana moc zasilacza:</strong>
+               <span id="psuPower"></span>
+            </p>
+            <p>
+               <strong>Moc zasilacza (alternatywa):</strong>
+               <span id="altPsuPower"></span>
+            </p>
+         </div>
       </section>
 
       <section id="components" class="target-section components">

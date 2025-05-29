@@ -68,17 +68,35 @@ function getBestComponents(selectedGames, selectedPerf, gamesData, componentsDat
    };
 }
 
-async function loadData() {
+function displayResult(result) {
+   document.getElementById('cpu').textContent = result.cpu;
+   document.getElementById('altCpu').textContent = result.altCpu || 'Brak alternatywy';
+   document.getElementById('gpu').textContent = result.gpu;
+   document.getElementById('altGpu').textContent = result.altGPU || 'Brak alternatywy';
+   document.getElementById('ram').textContent = result.ram;
+   document.getElementById('storage').textContent = result.storage;
+   document.getElementById('psuPower').textContent = result.psuPower;
+   document.getElementById('altPsuPower').textContent = result.altPsuPower;
+}
+
+async function loadData(selectedGames, selectedPerf) {
    const gamesRes = await fetch('../assets/data/games.json');
    const componentsRes = await fetch('../assets/data/components.json');
    const gamesData = await gamesRes.json();
    const componentsData = await componentsRes.json();
 
-   const selectedGames = ['GoWR', 'cyberpunk'];
-   const selectedPerf = '30fps';
-
    const result = getBestComponents(selectedGames, selectedPerf, gamesData, componentsData);
-   console.log(result);
+   displayResult(result);
 }
 
-loadData();
+document.querySelector('.games__form').addEventListener('submit', (e) => {
+   e.preventDefault();
+
+   const selectedGames = Array.from(document.querySelectorAll('input[name="games"]:checked')).map(
+      (input) => input.value,
+   );
+
+   const selectedPerf = document.querySelector('input[name="performance"]:checked').value;
+
+   loadData(selectedGames, selectedPerf);
+});
