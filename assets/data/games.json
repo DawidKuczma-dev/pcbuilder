@@ -53,6 +53,60 @@
             "gpu": ["GeForce RTX 3090 Ti 24GB", "Radeon RX 7900 XT 20GB"],
             "ram": 32
          }
+      },
+      "horizon": {
+         "storage": 150,
+         "30fps": {
+            "cpu": ["Intel Core i3-8100 3.6 GHz", "AMD Ryzen 3 1300X 3.5 GHz"],
+            "gpu": ["GeForce GTX 1650 4GB", "Radeon RX 5500 XT"],
+            "ram": 16
+         },
+         "60fps": {
+            "cpu": ["Intel Core i5-8600 3.1 GHz", "AMD Ryzen 5 3600 3.6 GHz"],
+            "gpu": ["GeForce RTX 3060 12GB", "Radeon RX 5700 8GB"],
+            "ram": 16
+         },
+         "4k": {
+            "cpu": ["Intel Core i7-11700 2.5 GHz", "AMD Ryzen 7 5700X 3.4 GHz"],
+            "gpu": ["GeForce RTX 4080 16GB", "Radeon RX 7900 XT 20GB"],
+            "ram": 16
+         }
+      },
+      "indiana": {
+         "storage": 120,
+         "30fps": {
+            "cpu": ["Intel Core i7-10700K 3.8 GHz", "AMD Ryzen 5 3600 3.6 GHz"],
+            "gpu": ["GeForce RTX 2060 Super 8GB", "Radeon RX 6600 8GB"],
+            "ram": 16
+         },
+         "60fps": {
+            "cpu": ["Intel Core i7-12700K 3.6 GHz", "AMD Ryzen 7 7700 3.8 GHz"],
+            "gpu": ["GeForce RTX 3080 Ti 12GB", "Radeon RX 7700 XT 12GB"],
+            "ram": 32
+         },
+         "4k": {
+            "cpu": ["Intel Core i9-13900K 3.0 GHz", "AMD Ryzen 7 7900X 4.7 GHz"],
+            "gpu": ["GeForce RTX 4090 24GB"],
+            "ram": 32
+         }
+      },
+      "TheLoU": {
+         "storage": 150,
+         "30fps": {
+            "cpu": ["Intel Core i3-8100", "AMD Ryzen 3 1300X"],
+            "gpu": ["GeForce GTX 1650 4GB", "Radeon RX 5500 XT"],
+            "ram": 16
+         },
+         "60fps": {
+            "cpu": ["Intel Core i5-8600", "AMD Ryzen 5 3600"],
+            "gpu": ["GeForce RTX 3060 8GB", "Radeon RX 5700 8GB"],
+            "ram": 16
+         },
+         "4k": {
+            "cpu": ["Intel Core i7-11700", "AMD Ryzen 7 5700X"],
+            "gpu": ["GeForce RTX 4080 16GB", "Radeon RX 7900 XT 20GB"],
+            "ram": 32
+         }
       }
    }
 }
