@@ -1,7 +1,13 @@
+@use 'variables' as *;
+
 .games {
-   padding: 20px 10px;
    text-align: center;
+   padding: 0 10px;
+   &__form {
+      height: 100vh;
+   }
    &__step {
+      margin-top: 30px;
       & span {
          text-transform: uppercase;
          font-weight: 700;
@@ -17,7 +23,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 6px;
-      margin: 20px 0 30px;
+      margin-top: 20px;
    }
    &__tile {
       width: 32%;
@@ -55,5 +61,56 @@
    &__submit {
       border: 1px solid white;
       padding: 10px;
+   }
+
+   &__result {
+      display: none;
+      height: 100vh;
+      &.active {
+         display: block;
+      }
+
+      h2 {
+         padding-top: 30px;
+      }
+   }
+   &__components {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      &-title,
+      &-single {
+         width: 100%;
+      }
+      &-title {
+         margin-top: 20px;
+         font-weight: 700;
+         font-size: 1.1rem;
+      }
+      &-double {
+         width: 45%;
+         &--intel {
+            color: $intel-color;
+         }
+         &--nvidia {
+            color: $nvidia-color;
+         }
+         &--alt {
+            color: $amd-color;
+         }
+         &--intelnvidia {
+            background: linear-gradient(90deg, $intel-color 10%, $nvidia-color);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+         }
+      }
+   }
+   &__extras {
+      margin-top: 30px;
+      & span {
+         font-weight: 700;
+         font-size: 1.1rem;
+      }
    }
 }

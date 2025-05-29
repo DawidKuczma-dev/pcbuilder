@@ -98,40 +98,33 @@
             </div>
             <button type="submit" class="games__submit">Zatwierdź wybór</button>
          </form>
-         <div id="result">
+         <div id="result" class="games__result">
             <h2>Rekomendowana konfiguracja</h2>
-            <p>
-               <strong>Procesor:</strong>
-               <span id="cpu"></span>
-            </p>
-            <p>
-               <strong>Alternatywnie:</strong>
-               <span id="altCpu"></span>
-            </p>
-            <p>
-               <strong>Karta graficzna:</strong>
-               <span id="gpu"></span>
-            </p>
-            <p>
-               <strong>Alternatywnie:</strong>
-               <span id="altGpu"></span>
-            </p>
-            <p>
-               <strong>Pamięć RAM:</strong>
-               <span id="ram"></span>
-            </p>
-            <p>
-               <strong>Miejsce na dysku:</strong>
-               <span id="storage"></span>
-            </p>
-            <p>
-               <strong>Rekomendowana moc zasilacza:</strong>
-               <span id="psuPower"></span>
-            </p>
-            <p>
-               <strong>Moc zasilacza (alternatywa):</strong>
-               <span id="altPsuPower"></span>
-            </p>
+            <div class="games__components">
+               <div class="games__components-title">Procesor</div>
+               <div id="cpu" class="games__components-double games__components-double--intel"></div>
+               <div id="altCpu" class="games__components-double games__components-double--alt"></div>
+               <div class="games__components-title">Karta graficzna</div>
+               <div id="gpu" class="games__components-double games__components-double--nvidia"></div>
+               <div id="altGpu" class="games__components-double games__components-double--alt"></div>
+               <div class="games__components-title">Pamięć RAM</div>
+               <div id="ram" class="games__components-single"></div>
+               <div class="games__components-title">Miejsce na dysku SSD</div>
+               <div id="storage" class="games__components-single"></div>
+               <div class="games__components-title">Rekomendowana moc zasilacza</div>
+               <div id="Power" class="games__components-double games__components-double--intelnvidia"></div>
+               <div id="altPower" class="games__components-double games__components-double--alt"></div>
+            </div>
+            <div class="games__extras">
+               <p>
+                  <span>System:</span>
+                  Windows 10 64-bit lub nowszy
+               </p>
+               <p>
+                  <span>Płyta główna:</span>
+                  Socket: 1700 lub AM5
+               </p>
+            </div>
          </div>
       </section>
 
