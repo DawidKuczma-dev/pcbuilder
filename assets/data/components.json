@@ -1,5 +1,60 @@
 {
    "cpu": {
+      "AMD Ryzen 7 7800X3D 4.2 GHz": {
+         "tdp": 120,
+         "socket": "AM5",
+         "rank": 35
+      },
+      "AMD Ryzen 9 7900X 4.7 GHz": {
+         "tdp": 170,
+         "socket": "AM5",
+         "rank": 51
+      },
+      "Intel Core i9-12900 2.4 GHz": {
+         "tdp": 202,
+         "socket": "1700",
+         "rank": 57
+      },
+      "Intel Core i7-12700 3.6 GHz": {
+         "tdp": 180,
+         "socket": "1700",
+         "rank": 64
+      },
+      "Intel Core i5-11600K 3.9 GHz": {
+         "tdp": 125,
+         "socket": "1200",
+         "rank": 99
+      },
+      "AMD Ryzen 7 5800X 3.8 GHz": {
+         "tdp": 105,
+         "socket": "AM4",
+         "rank": 114
+      },
+      "Intel Core i7-10700 3.8 GHz": {
+         "tdp": 65,
+         "socket": "1200",
+         "rank": 155
+      },
+      "Intel Core i5-8600 3.1 GHz": {
+         "tdp": 65,
+         "socket": "1151",
+         "rank": 183
+      },
+      "Intel Core i7-8700 3.2 GHz": {
+         "tdp": 65,
+         "socket": "1151",
+         "rank": 196
+      },
+      "AMD Ryzen 7 3700X 3.6 GHz": {
+         "tdp": 65,
+         "socket": "AM4",
+         "rank": 205
+      },
+      "AMD Ryzen 5 3600 3.6 GHz": {
+         "tdp": 65,
+         "socket": "AM4",
+         "rank": 234
+      },
       "Intel Core i7-6700 3.4 GHz": {
          "tdp": 65,
          "socket": "1151",
@@ -15,6 +70,16 @@
          "socket": "1150",
          "rank": 481
       },
+      "Intel Core i5-6600 3.3 GHz": {
+         "tdp": 65,
+         "socket": "1151",
+         "rank": 488
+      },
+      "AMD Ryzen 5 1400 3.2 GHz": {
+         "tdp": 65,
+         "socket": "AM4",
+         "rank": 602
+      },
       "AMD Ryzen 3 1200 3.1 GHz": {
          "tdp": 65,
          "socket": "AM4",
@@ -22,6 +87,46 @@
       }
    },
    "gpu": {
+      "GeForce RTX 4080 16GB": {
+         "tdp": 320,
+         "rank": 5
+      },
+      "GeForce RTX 4070 Ti 12GB": {
+         "tdp": 285,
+         "rank": 9
+      },
+      "GeForce RTX 3090 Ti 24GB": {
+         "tdp": 450,
+         "rank": 11
+      },
+      "Radeon RX 7900 XT 20GB": {
+         "tdp": 300,
+         "rank": 13
+      },
+      "GeForce GTX 1080 Ti 8GB": {
+         "tdp": 250,
+         "rank": 47
+      },
+      "Radeon RX 5700XT 8GB": {
+         "tdp": 225,
+         "rank": 74
+      },
+      "GeForce RTX 2060 Super 8GB": {
+         "tdp": 121,
+         "rank": 76
+      },
+      "Radeon RX 470 4GB": {
+         "tdp": 120,
+         "rank": 159
+      },
+      "GeForce GTX 960 4GB": {
+         "tdp": 120,
+         "rank": 176
+      },
+      "Radeon RX 5700 8GB": {
+         "tdp": 180,
+         "rank": 96
+      },
       "GeForce GTX 1060 6GB": {
          "tdp": 120,
          "rank": 127

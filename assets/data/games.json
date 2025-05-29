@@ -1,5 +1,23 @@
 {
    "games": {
+      "cyberpunk": {
+         "storage": 70,
+         "30fps": {
+            "cpu": ["Intel Core i7-6700 3.4 GHz", "AMD Ryzen 5 1600 3.2 GHz"],
+            "gpu": ["GeForce GTX 1060 6GB", "Radeon RX 580 8GB"],
+            "ram": 12
+         },
+         "60fps": {
+            "cpu": ["Intel Core i7-12700 3.6 GHz", "AMD Ryzen 7 7800X3D 4.2 GHz"],
+            "gpu": ["GeForce RTX 2060 Super 8GB", "Radeon RX 5700XT 8GB"],
+            "ram": 16
+         },
+         "4k": {
+            "cpu": ["Intel Core i9-12900 2.4 GHz", "AMD Ryzen 9 7900X 4.7 GHz"],
+            "gpu": ["GeForce RTX 4080 16GB"],
+            "ram": 24
+         }
+      },
       "GoWR": {
          "storage": 190,
          "30fps": {
@@ -13,27 +31,27 @@
             "ram": 16
          },
          "4k": {
-            "cpu": [" Intel Core i5-11600K 3.9 GHz", "AMD Ryzen 7 3700X 3.6 GHz"],
+            "cpu": ["Intel Core i5-11600K 3.9 GHz", "AMD Ryzen 7 3700X 3.6 GHz"],
             "gpu": ["GeForce RTX 4070 Ti 12GB", "Radeon RX 7900 XT 20GB"],
             "ram": 16
          }
       },
-      "cyberpunk": {
-         "storage": 70,
+      "hogwarts": {
+         "storage": 85,
          "30fps": {
-            "cpu": ["Intel Core i7-6700 3.4 GHz", "AMD Ryzen 5 1600 3.2 GHz"],
-            "gpu": ["GeForce GTX 1060 6GB", "Radeon RX 580 8GB"],
-            "ram": 12
+            "cpu": ["Intel Core i5-6600 3.3 GHz", "AMD Ryzen 5 1400 3.2 GHz"],
+            "gpu": ["GeForce GTX 960 4GB", "Radeon RX 470 4GB"],
+            "ram": 16
          },
          "60fps": {
-            "cpu": ["Intel Core i7-12700 3.6 GHz", "AMD Ryzen 7 7800 4.2 GHz"],
-            "gpu": ["GeForce RTX 2060 Super 8GB", "Radeon RX 5700XT 8GB"],
+            "cpu": ["Intel Core i7-8700 3.2 GHz", "AMD Ryzen 5 3600 3.6 GHz"],
+            "gpu": ["GeForce GTX 1080 Ti 8GB", "Radeon RX 5700XT 8GB"],
             "ram": 16
          },
          "4k": {
-            "cpu": ["ntel Core i9-12900 2.4 GHz", "AMD Ryzen 9 7900X 4.7 GHz"],
-            "gpu": ["GeForce RTX 4080 16GB"],
-            "ram": 24
+            "cpu": ["Intel Core i7-10700 3.8 GHz", "AMD Ryzen 7 5800X 3.8 GHz"],
+            "gpu": ["GeForce RTX 3090 Ti 24GB", "Radeon RX 7900 XT 20GB"],
+            "ram": 32
          }
       }
    }
