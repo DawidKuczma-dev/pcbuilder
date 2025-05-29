@@ -1,9 +1,19 @@
 {
    "cpu": {
+      "Intel Core i9-13900K 3.0 GHz": {
+         "tdp": 253,
+         "socket": "1700",
+         "rank": 8
+      },
       "AMD Ryzen 7 7800X3D 4.2 GHz": {
          "tdp": 120,
          "socket": "AM5",
          "rank": 35
+      },
+      "Intel Core i7-12700K 3.6 GHz": {
+         "tdp": 190,
+         "socket": "1700",
+         "rank": 48
       },
       "AMD Ryzen 9 7900X 4.7 GHz": {
          "tdp": 170,
@@ -15,6 +25,11 @@
          "socket": "1700",
          "rank": 57
       },
+      "AMD Ryzen 7 7700 3.8 GHz": {
+         "tdp": 65,
+         "socket": "AM5",
+         "rank": 62
+      },
       "Intel Core i7-12700 3.6 GHz": {
          "tdp": 180,
          "socket": "1700",
@@ -25,10 +40,25 @@
          "socket": "1200",
          "rank": 99
       },
+      "Intel Core i7-11700 2.5 GHz": {
+         "tdp": 65,
+         "socket": "1200",
+         "rank": 109
+      },
       "AMD Ryzen 7 5800X 3.8 GHz": {
          "tdp": 105,
          "socket": "AM4",
          "rank": 114
+      },
+      "Intel Core i7-10700K 3.8 GHz": {
+         "tdp": 125,
+         "socket": "1200",
+         "rank": 126
+      },
+      "AMD Ryzen 7 5700X 3.4 GHz": {
+         "tdp": 65,
+         "socket": "AM4",
+         "rank": 133
       },
       "Intel Core i7-10700 3.8 GHz": {
          "tdp": 65,
@@ -60,6 +90,11 @@
          "socket": "1151",
          "rank": 393
       },
+      "Intel Core i3-8100 3.6 GHz": {
+         "tdp": 65,
+         "socket": "1151",
+         "rank": 424
+      },
       "AMD Ryzen 5 1600 3.2 GHz": {
          "tdp": 65,
          "socket": "AM4",
@@ -75,6 +110,11 @@
          "socket": "1151",
          "rank": 488
       },
+      "AMD Ryzen 3 1300X 3.5 GHz": {
+         "tdp": 65,
+         "socket": "AM4",
+         "rank": 526
+      },
       "AMD Ryzen 5 1400 3.2 GHz": {
          "tdp": 65,
          "socket": "AM4",
@@ -87,6 +127,10 @@
       }
    },
    "gpu": {
+      "GeForce RTX 4090 24GB": {
+         "tdp": 450,
+         "rank": 2
+      },
       "GeForce RTX 4080 16GB": {
          "tdp": 320,
          "rank": 5
@@ -103,9 +147,21 @@
          "tdp": 300,
          "rank": 13
       },
+      "GeForce RTX 3080 Ti 12GB": {
+         "tdp": 350,
+         "rank": 18
+      },
+      "Radeon RX 7700 XT 12GB": {
+         "tdp": 240,
+         "rank": 33
+      },
       "GeForce GTX 1080 Ti 8GB": {
          "tdp": 250,
          "rank": 47
+      },
+      "GeForce RTX 3060 12GB": {
+         "tdp": 170,
+         "rank": 72
       },
       "Radeon RX 5700XT 8GB": {
          "tdp": 225,
@@ -115,13 +171,9 @@
          "tdp": 121,
          "rank": 76
       },
-      "Radeon RX 470 4GB": {
-         "tdp": 120,
-         "rank": 159
-      },
-      "GeForce GTX 960 4GB": {
-         "tdp": 120,
-         "rank": 176
+      "Radeon RX 6600 8GB": {
+         "tdp": 132,
+         "rank": 91
       },
       "Radeon RX 5700 8GB": {
          "tdp": 180,
@@ -138,6 +190,18 @@
       "Radeon RX 5500 XT 8GB": {
          "tdp": 130,
          "rank": 135
+      },
+      "GeForce GTX 1650 4GB": {
+         "tdp": 75,
+         "rank": 150
+      },
+      "Radeon RX 470 4GB": {
+         "tdp": 120,
+         "rank": 159
+      },
+      "GeForce GTX 960 4GB": {
+         "tdp": 120,
+         "rank": 176
       }
    }
 }

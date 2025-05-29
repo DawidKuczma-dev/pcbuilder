@@ -58,7 +58,7 @@
          "storage": 150,
          "30fps": {
             "cpu": ["Intel Core i3-8100 3.6 GHz", "AMD Ryzen 3 1300X 3.5 GHz"],
-            "gpu": ["GeForce GTX 1650 4GB", "Radeon RX 5500 XT"],
+            "gpu": ["GeForce GTX 1650 4GB", "Radeon RX 5500 XT 8GB"],
             "ram": 16
          },
          "60fps": {
