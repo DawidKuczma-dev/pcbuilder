@@ -14,3 +14,11 @@ images.forEach((image) => {
       }
    });
 });
+
+const btn = document.querySelector('.games__submit');
+const result = document.getElementById('result');
+
+btn.addEventListener('click', () => {
+   result.classList.add('active');
+   result.scrollIntoView({ behavior: 'smooth' });
+});

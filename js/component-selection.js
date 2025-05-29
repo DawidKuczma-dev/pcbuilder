@@ -50,11 +50,11 @@ function getBestComponents(selectedGames, selectedPerf, gamesData, componentsDat
    // TDP głównej konfiguracji
    const cpuTdp = componentsData.cpu[bestCPU]?.tdp ?? 0;
    const gpuTdp = componentsData.gpu[bestGPU]?.tdp ?? 0;
-   const psuPower = Math.round((cpuTdp + gpuTdp) * 1.3);
+   const Power = Math.ceil(((cpuTdp + gpuTdp) * 1.3) / 50) * 50;
    // TDP alternatywnej konfiguracji (jeśli istnieje)
    const altCpuTdp = componentsData.cpu[altCPU]?.tdp ?? cpuTdp;
    const altGpuTdp = componentsData.gpu[altGPU]?.tdp ?? gpuTdp;
-   const altPsuPower = Math.round((altCpuTdp + altGpuTdp) * 1.3);
+   const altPower = Math.ceil(((altCpuTdp + altGpuTdp) * 1.3) / 50) * 50;
 
    return {
       cpu: bestCPU,
@@ -63,8 +63,8 @@ function getBestComponents(selectedGames, selectedPerf, gamesData, componentsDat
       altGPU: altGPU,
       ram: `${maxRam}GB`,
       storage: `${totalStorage}GB`,
-      psuPower: `${psuPower}W`,
-      altPsuPower: `${altPsuPower}W`,
+      Power: `${Power}W`,
+      altPower: `${altPower}W`,
    };
 }
 
@@ -75,8 +75,8 @@ function displayResult(result) {
    document.getElementById('altGpu').textContent = result.altGPU || 'Brak alternatywy';
    document.getElementById('ram').textContent = result.ram;
    document.getElementById('storage').textContent = result.storage;
-   document.getElementById('psuPower').textContent = result.psuPower;
-   document.getElementById('altPsuPower').textContent = result.altPsuPower;
+   document.getElementById('Power').textContent = result.Power;
+   document.getElementById('altPower').textContent = result.altPower;
 }
 
 async function loadData(selectedGames, selectedPerf) {
