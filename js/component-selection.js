@@ -91,12 +91,25 @@ async function loadData(selectedGames, selectedPerf) {
 
 document.querySelector('.games__form').addEventListener('submit', (e) => {
    e.preventDefault();
-
    const selectedGames = Array.from(document.querySelectorAll('input[name="games"]:checked')).map(
       (input) => input.value,
    );
 
-   const selectedPerf = document.querySelector('input[name="performance"]:checked').value;
+   if (selectedGames.length > 0) {
+      const selectedPerf = document.querySelector('input[name="performance"]:checked').value;
+      loadData(selectedGames, selectedPerf);
 
-   loadData(selectedGames, selectedPerf);
+      const result = document.getElementById('result');
+      result.classList.add('active');
+      result.scrollIntoView({ behavior: 'smooth' });
+   } else {
+      const images = document.querySelectorAll('.games__tile>img');
+      images.forEach((image) => {
+         image.classList.add('alert');
+         setTimeout(() => {
+            image.classList.remove('alert');
+         }, 1000);
+      });
+      return;
+   }
 });
