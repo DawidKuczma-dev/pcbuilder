@@ -1,9 +1,19 @@
 @use 'variables' as *;
-
+html {
+   font-size: 16px;
+   @media (min-width: 425px) {
+      font-size: 18px;
+   }
+   @media (min-width: 768px) {
+      font-size: 24px;
+   }
+   @media (min-width: 1024px) {
+      font-size: 30px;
+   }
+}
 body {
    background-color: #000;
    font-family: $ff-primary;
-   font-size: 16px;
    color: white;
 }
 
@@ -13,5 +23,8 @@ body {
    background-size: cover;
    &.active {
       display: block;
+   }
+   @media (min-width: 768px) {
+      background-image: url('../assets/images/bg-desktop-rotate.png');
    }
 }

@@ -20,7 +20,7 @@
    &__tiles {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: center;
       gap: 6px;
       margin: 20px 0 30px;
    }
@@ -39,6 +39,16 @@
          border-radius: 5px;
          opacity: 1;
          border: 1px solid white;
+      }
+
+      @media (min-width: 425px) {
+         max-width: 130px;
+      }
+      @media (min-width: 768px) {
+         max-width: 200px;
+      }
+      @media (min-width: 1024px) {
+         max-width: 270px;
       }
    }
 
