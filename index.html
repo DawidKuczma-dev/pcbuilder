@@ -100,28 +100,31 @@
             <h2>Rekomendowana konfiguracja</h2>
             <div class="games__components">
                <div class="games__components-title">Procesor</div>
-               <div id="cpu" class="games__components-double games__components-double--intel"></div>
-               <div id="altCpu" class="games__components-double games__components-double--alt"></div>
+               <div id="cpu" class="games__components-double"></div>
+               <div id="altCpu" class="games__components-double"></div>
                <div class="games__components-title">Karta graficzna</div>
-               <div id="gpu" class="games__components-double games__components-double--nvidia"></div>
-               <div id="altGpu" class="games__components-double games__components-double--alt"></div>
+               <div id="gpu" class="games__components-double"></div>
+               <div id="altGpu" class="games__components-double"></div>
                <div class="games__components-title">Pamięć RAM</div>
                <div id="ram" class="games__components-single"></div>
                <div class="games__components-title">Miejsce na dysku SSD</div>
                <div id="storage" class="games__components-single"></div>
-               <div class="games__components-title">Rekomendowana moc zasilacza</div>
-               <div id="Power" class="games__components-double games__components-double--intelnvidia"></div>
-               <div id="altPower" class="games__components-double games__components-double--alt"></div>
+               <div class="games__components-title">Minmalna moc zasilacza</div>
+               <div id="Power" class="games__components-double"></div>
+               <div id="altPower" class="games__components-double"></div>
             </div>
             <div class="games__extras">
-               <p>
+               <div class="games__os">
                   <span>System:</span>
-                  Windows 10 64-bit lub nowszy
-               </p>
-               <p>
+                  <p>Windows 10 64-bit lub nowszy</p>
+               </div>
+               <div class="games__motherboard">
                   <span>Płyta główna:</span>
-                  Socket: 1700 lub AM5
-               </p>
+                  <p>Socket:</p>
+                  <p id="socket"></p>
+                  <p>lub</p>
+                  <p id="altSocket"></p>
+               </div>
             </div>
          </div>
       </section>

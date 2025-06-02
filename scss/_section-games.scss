@@ -90,28 +90,22 @@
       }
       &-double {
          width: 45%;
-         &--intel {
-            color: $intel-color;
-         }
-         &--nvidia {
-            color: $nvidia-color;
-         }
-         &--alt {
-            color: $amd-color;
-         }
-         &--intelnvidia {
-            background: linear-gradient(90deg, $intel-color 10%, $nvidia-color);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-         }
       }
    }
    &__extras {
-      margin-top: 30px;
+      margin-top: 20px;
       & span {
          font-weight: 700;
          font-size: 1.1rem;
+      }
+   }
+   &__motherboard {
+      margin-top: 20px;
+      span {
+         display: block;
+      }
+      p {
+         display: inline;
       }
    }
 }

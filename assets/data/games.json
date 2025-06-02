@@ -93,17 +93,17 @@
       "TheLoU": {
          "storage": 150,
          "30fps": {
-            "cpu": ["Intel Core i3-8100", "AMD Ryzen 3 1300X"],
+            "cpu": ["Intel Core i3-8100 3.6 GHz", "AMD Ryzen 3 1300X 3.5 GHz"],
             "gpu": ["GeForce GTX 1650 4GB", "Radeon RX 5500 XT"],
             "ram": 16
          },
          "60fps": {
-            "cpu": ["Intel Core i5-8600", "AMD Ryzen 5 3600"],
-            "gpu": ["GeForce RTX 3060 8GB", "Radeon RX 5700 8GB"],
+            "cpu": ["Intel Core i5-8600 3.1 GHz", "AMD Ryzen 5 3600 3.6 GHz"],
+            "gpu": ["GeForce RTX 3060 12GB", "Radeon RX 5700 8GB"],
             "ram": 16
          },
          "4k": {
-            "cpu": ["Intel Core i7-11700", "AMD Ryzen 7 5700X"],
+            "cpu": ["Intel Core i7-11700 2.5 GHz", "AMD Ryzen 7 5700X 3.4 GHz"],
             "gpu": ["GeForce RTX 4080 16GB", "Radeon RX 7900 XT 20GB"],
             "ram": 32
          }
