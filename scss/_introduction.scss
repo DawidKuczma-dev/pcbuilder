@@ -52,6 +52,7 @@
          transition: transform 0.2s ease;
          max-height: 220px;
          margin: 0 auto;
+         cursor: pointer;
          &:active {
             transform: scale(0.97);
          }
@@ -60,6 +61,9 @@
          }
          @media (min-width: 1024px) {
             max-height: 414px;
+            &:hover {
+               transform: scale(0.99);
+            }
          }
       }
       &.in-progress::after {

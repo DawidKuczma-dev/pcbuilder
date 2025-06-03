@@ -135,6 +135,7 @@ body {
   transition: transform 0.2s ease;
   max-height: 220px;
   margin: 0 auto;
+  cursor: pointer;
 }
 .main__img img:active {
   transform: scale(0.97);
@@ -147,6 +148,9 @@ body {
 @media (min-width: 1024px) {
   .main__img img {
     max-height: 414px;
+  }
+  .main__img img:hover {
+    transform: scale(0.99);
   }
 }
 .main__img.in-progress::after {
@@ -187,6 +191,7 @@ body {
 }
 .games__tile {
   width: 32%;
+  cursor: pointer;
 }
 .games__tile img {
   border-radius: 15px;
@@ -214,6 +219,10 @@ body {
 @media (min-width: 1024px) {
   .games__tile {
     max-width: 270px;
+    transition: transform 0.3s;
+  }
+  .games__tile:hover {
+    transform: scale(0.99);
   }
 }
 .games__performance {
@@ -225,16 +234,26 @@ body {
 }
 .games__performance-option {
   width: 45%;
-  opacity: 0.7;
 }
-.games__performance input:checked + label {
+.games__performance-option label {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.games__performance-option label:hover {
+  opacity: 1;
+}
+.games__performance-option input:checked + label {
   opacity: 1;
   font-weight: 700;
   font-size: 1.2rem;
 }
 .games__submit {
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.7);
   padding: 10px;
+  cursor: pointer;
+}
+.games__submit:hover {
+  border-color: rgb(255, 255, 255);
 }
 .games__result {
   display: none;

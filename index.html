@@ -73,26 +73,31 @@
                <h3>Wybierz docelową wydajność</h3>
             </div>
             <div class="games__performance">
-               <input type="radio" name="performance" value="30fps" id="perf-720" hidden />
-               <label for="perf-720" class="games__performance-option">
-                  30fps
-                  <br />
-                  720p/1080p
-               </label>
+               <div class="games__performance-option">
+                  <input type="radio" name="performance" value="30fps" id="perf-720" hidden />
 
-               <input type="radio" name="performance" value="60fps" id="perf-1080" checked hidden />
-               <label for="perf-1080" class="games__performance-option">
-                  60fps
-                  <br />
-                  1080p
-               </label>
-
-               <input type="radio" name="performance" value="4k" id="perf-4k" hidden />
-               <label for="perf-4k" class="games__performance-option">
-                  60fps
-                  <br />
-                  4k
-               </label>
+                  <label for="perf-720">
+                     30fps
+                     <br />
+                     720p/1080p
+                  </label>
+               </div>
+               <div class="games__performance-option">
+                  <input type="radio" name="performance" value="60fps" id="perf-1080" checked hidden />
+                  <label for="perf-1080">
+                     60fps
+                     <br />
+                     1080p
+                  </label>
+               </div>
+               <div class="games__performance-option">
+                  <input type="radio" name="performance" value="4k" id="perf-4k" hidden />
+                  <label for="perf-4k">
+                     60fps
+                     <br />
+                     4k
+                  </label>
+               </div>
             </div>
             <button type="submit" class="games__submit">Zatwierdź wybór</button>
          </form>
