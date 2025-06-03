@@ -121,8 +121,8 @@ function displayResult(result) {
 }
 
 async function loadData(selectedGames, selectedPerf) {
-   const gamesRes = await fetch('../assets/data/games.json');
-   const componentsRes = await fetch('../assets/data/components.json');
+   const gamesRes = await fetch('assets/data/games.json');
+   const componentsRes = await fetch('assets/data/components.json');
    const gamesData = await gamesRes.json();
    const componentsData = await componentsRes.json();
 
