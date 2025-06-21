@@ -1,145 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Pc-Builder</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Montserrat:wght@100..900&family=Poppins:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
-         rel="stylesheet"
-      />
-      <link rel="stylesheet" href="css/main.css" />
-   </head>
-   <body>
-      <section class="introduction">
-         <header class="header">
-            <div class="header__title">
-               <h1>Pc Builder</h1>
-               <p>Zbuduj komputer szybko i prosto</p>
-            </div>
-         </header>
-         <main class="main">
-            <h2 class="main__title">Wybierz scieżkę która najbardziej ci odpowiada</h2>
-            <div class="main__tile">
-               <div>Budowa od zera pod konkretne tytuły👇️</div>
-               <div class="main__img" data-target="games">
-                  <img src="assets/images/games.webp" alt="Komputer pod gry" />
-               </div>
-            </div>
-            <div class="main__tile">
-               <div>Budowa wykorzystująca posiadane już podzespoły👇️</div>
-               <div class="main__img" data-target="components">
-                  <img src="assets/images/components.jpg" alt="Mam płytę główną" />
-               </div>
-            </div>
-         </main>
-      </section>
-      <section id="games" class="target-section games">
-         <form class="games__form">
-            <div class="games__step">
-               <span>Krok 1:</span>
-               <h3>Wybierz interesujące cię gry</h3>
-            </div>
-            <div class="games__tiles">
-               <label class="games__tile">
-                  <input type="checkbox" name="games" value="GoWR" hidden />
-                  <img src="assets/images/GoW.jpg" alt="God of War Ragnarok" />
-               </label>
-               <label class="games__tile">
-                  <input type="checkbox" name="games" value="hogwarts" hidden />
-                  <img src="assets/images/hogwarts.jpg" alt="Hogwarts Legacy" />
-               </label>
-               <label class="games__tile">
-                  <input type="checkbox" name="games" value="cyberpunk" hidden />
-                  <img src="assets/images/cyberpunk.avif" alt="Cyberpunk 2077" />
-               </label>
-               <label class="games__tile">
-                  <input type="checkbox" name="games" value="horizon" hidden />
-                  <img src="assets/images/horizon.jpg" alt="Horizon: Forbidden West" />
-               </label>
-               <label class="games__tile">
-                  <input type="checkbox" name="games" value="indiana" hidden />
-                  <img src="assets/images/indiana.avif" alt="Indiana Jones and the Great Circle" />
-               </label>
-               <label class="games__tile">
-                  <input type="checkbox" name="games" value="TheLoU" hidden />
-                  <img src="assets/images/TheLoU.avif" alt="The Last of Us: Part II" />
-               </label>
-            </div>
-            <div class="games__step">
-               <span>Krok 2:</span>
-               <h3>Wybierz docelową wydajność</h3>
-            </div>
-            <div class="games__performance">
-               <div class="games__performance-option">
-                  <input type="radio" name="performance" value="30fps" id="perf-720" hidden />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <title>Pc-Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Montserrat:wght@100..900&family=Poppins:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section class="introduction">
+      <header class="header">
+        <div class="header__title">
+          <h1>Pc Builder</h1>
+          <p>Zbuduj komputer szybko i prosto</p>
+        </div>
+      </header>
+      <main class="main">
+        <h2 class="main__title">Wybierz scieżkę która najbardziej ci odpowiada</h2>
+        <div class="main__tile">
+          <div>Budowa od zera pod konkretne tytuły👇️</div>
+          <div class="main__img" data-target="games">
+            <img src="assets/images/games.webp" alt="Komputer pod gry" />
+          </div>
+        </div>
+        <div class="main__tile">
+          <div>Budowa wykorzystująca posiadane już podzespoły👇️</div>
+          <div class="main__img" data-target="components">
+            <img src="assets/images/components.jpg" alt="Mam płytę główną" />
+          </div>
+        </div>
+      </main>
+    </section>
+    <section id="games" class="target-section games">
+      <form class="games__form">
+        <div class="games__step">
+          <span>Krok 1:</span>
+          <h3>Wybierz interesujące cię gry</h3>
+        </div>
+        <div class="games__tiles">
+          <label class="games__tile">
+            <input type="checkbox" name="games" value="GoWR" hidden />
+            <img src="assets/images/GoW.jpg" alt="God of War Ragnarok" />
+          </label>
+          <label class="games__tile">
+            <input type="checkbox" name="games" value="hogwarts" hidden />
+            <img src="assets/images/hogwarts.jpg" alt="Hogwarts Legacy" />
+          </label>
+          <label class="games__tile">
+            <input type="checkbox" name="games" value="cyberpunk" hidden />
+            <img src="assets/images/cyberpunk.avif" alt="Cyberpunk 2077" />
+          </label>
+          <label class="games__tile">
+            <input type="checkbox" name="games" value="horizon" hidden />
+            <img src="assets/images/horizon.jpg" alt="Horizon: Forbidden West" />
+          </label>
+          <label class="games__tile">
+            <input type="checkbox" name="games" value="indiana" hidden />
+            <img src="assets/images/indiana.avif" alt="Indiana Jones and the Great Circle" />
+          </label>
+          <label class="games__tile">
+            <input type="checkbox" name="games" value="TheLoU" hidden />
+            <img src="assets/images/TheLoU.avif" alt="The Last of Us: Part II" />
+          </label>
+        </div>
+        <div class="games__step">
+          <span>Krok 2:</span>
+          <h3>Wybierz docelową wydajność</h3>
+        </div>
+        <div class="games__performance">
+          <div class="games__performance-option">
+            <input type="radio" name="performance" value="30fps" id="perf-720" hidden />
 
-                  <label for="perf-720">
-                     30fps
-                     <br />
-                     720p/1080p
-                  </label>
-               </div>
-               <div class="games__performance-option">
-                  <input type="radio" name="performance" value="60fps" id="perf-1080" checked hidden />
-                  <label for="perf-1080">
-                     60fps
-                     <br />
-                     1080p
-                  </label>
-               </div>
-               <div class="games__performance-option">
-                  <input type="radio" name="performance" value="4k" id="perf-4k" hidden />
-                  <label for="perf-4k">
-                     60fps
-                     <br />
-                     4k
-                  </label>
-               </div>
-            </div>
-            <button type="submit" class="games__submit">Zatwierdź wybór</button>
-         </form>
-         <div id="result" class="games__result">
-            <h2>Rekomendowana konfiguracja</h2>
-            <div class="games__components">
-               <div class="games__components-title">Procesor</div>
-               <div id="cpu" class="games__components-double"></div>
-               <div id="altCpu" class="games__components-double"></div>
-               <div class="games__components-title">Karta graficzna</div>
-               <div id="gpu" class="games__components-double"></div>
-               <div id="altGpu" class="games__components-double"></div>
-               <div class="games__components-title">Pamięć RAM</div>
-               <div id="ram" class="games__components-single"></div>
-               <div class="games__components-title">Miejsce na dysku SSD</div>
-               <div id="storage" class="games__components-single"></div>
-               <div class="games__components-title">Minmalna moc zasilacza</div>
-               <div id="Power" class="games__components-double"></div>
-               <div id="altPower" class="games__components-double"></div>
-            </div>
-            <div class="games__extras">
-               <div class="games__os">
-                  <span>System:</span>
-                  <p>Windows 10 64-bit lub nowszy</p>
-               </div>
-               <div class="games__motherboard">
-                  <span>Płyta główna:</span>
-                  <p>Socket:</p>
-                  <p id="socket"></p>
-                  <p>lub</p>
-                  <p id="altSocket"></p>
-               </div>
-            </div>
-         </div>
-      </section>
+            <label for="perf-720">
+              30fps
+              <br />
+              720p/1080p
+            </label>
+          </div>
+          <div class="games__performance-option">
+            <input type="radio" name="performance" value="60fps" id="perf-1080" checked hidden />
+            <label for="perf-1080">
+              60fps
+              <br />
+              1080p
+            </label>
+          </div>
+          <div class="games__performance-option">
+            <input type="radio" name="performance" value="4k" id="perf-4k" hidden />
+            <label for="perf-4k">
+              60fps
+              <br />
+              4k
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="games__submit">Zatwierdź wybór</button>
+      </form>
+      <div id="result" class="games__result">
+        <h2>Rekomendowana konfiguracja</h2>
+        <div class="games__components">
+          <div class="games__components-title">Procesor</div>
+          <div id="cpu" class="games__components-double"></div>
+          <div id="altCpu" class="games__components-double"></div>
+          <div class="games__components-title">Karta graficzna</div>
+          <div id="gpu" class="games__components-double"></div>
+          <div id="altGpu" class="games__components-double"></div>
+          <div class="games__components-title">Pamięć RAM</div>
+          <div id="ram" class="games__components-single"></div>
+          <div class="games__components-title">Miejsce na dysku SSD</div>
+          <div id="storage" class="games__components-single"></div>
+          <div class="games__components-title">Minmalna moc zasilacza</div>
+          <div id="Power" class="games__components-double"></div>
+          <div id="altPower" class="games__components-double"></div>
+        </div>
+        <div class="games__extras">
+          <div class="games__os">
+            <span>System:</span>
+            <p>Windows 10 64-bit lub nowszy</p>
+          </div>
+          <div class="games__motherboard">
+            <span>Płyta główna:</span>
+            <p>Socket:</p>
+            <p id="socket"></p>
+            <p>lub</p>
+            <p id="altSocket"></p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section id="components" class="target-section components">
-         COMPONENTS Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea aspernatur asperiores, totam eos saepe
-         suscipit. Placeat quibusdam vitae numquam excepturi nostrum, inventore eius voluptates, accusantium at corporis
-         dolores libero quisquam!
-      </section>
-      <script src="js/scroll.js"></script>
-      <script src="js/component-selection.js"></script>
-   </body>
+    <section id="components" class="target-section components">
+      COMPONENTS Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea aspernatur asperiores,
+      totam eos saepe suscipit. Placeat quibusdam vitae numquam excepturi nostrum, inventore eius
+      voluptates, accusantium at corporis dolores libero quisquam!
+    </section>
+    <script src="js/scroll.js"></script>
+    <script src="js/component-selection.js"></script>
+  </body>
 </html>
